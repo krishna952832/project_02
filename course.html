@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Courses</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contactus.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Courses</h1>
+    </section>
+
+    <!------------------------ courses ------------------>
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo vel fugit
+        mus ut in debitis dolore id quae similique ex repellat sapiente.
+      </p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
+            explicabo cum hic a aut earum officiis fugiat animi quasi ratione
+            inventore aliquam magnam
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
+            explicabo cum hic a aut earum officiis fugiat animi quasi ratione
+            inventore aliquam
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
+            explicabo cum hic a aut earum officiis fugiat animi quasi ratione
+            inventore aliquam magnam
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------facilities------------------------ -->
+
+    <section class="facilities">
+      <h1>Our facilities</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+        aliquid ullam qui, cum eum saepe!
+      </p>
+
+      <div class="row">
+        <div class="facilities-col">
+          <img src="library.png" />
+          <h3>World Class Library</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+            nihil!
+          </p>
+        </div>
+
+        <div class="facilities-col">
+          <img src="basketball.png" />
+          <h3>Largest Playground</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+            nihil!
+          </p>
+        </div>
+
+        <div class="facilities-col">
+          <img src="cafeteria.png" />
+          <h3>Tasty and healthy Food</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+            nihil!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------Footer ------------------------->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur
+        corporis quam facere temporibus necessitatibus non nostrum odit possimus
+        perspiciatis molestias!
+      </p>
+      <div class="icons">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+    </section>
+
+    <!------------------------------------ javascript for toggle menu ------------------------------------------->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
